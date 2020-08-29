@@ -1,9 +1,11 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+//import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";
+import Sec from './Components/sec'
 import dummyText from "./DummyText";
+
 class App extends Component {
   render() {
     return (
@@ -15,10 +17,7 @@ class App extends Component {
           dark={true}
           id="section1"
         />
-        <Section
-          title="Section 2"
-          subtitle={dummyText}
-          dark={false}
+       <Sec
           id="section2"
         />
         <Section
